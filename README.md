@@ -10,4 +10,5 @@ Query: "Where did the cat sit?" → also becomes a vector
 
 Vector search compares the query vector to all text vectors and picks the ones that are closest (most similar in meaning), even if the wording is different.
 
-It's like searching by meaning instead of exact words.
+It's like searching by meaning instead of exact words. FAISS helps find the most similar vectors to a given query vector. When you search, you give FAISS a vector (the query). FAISS then finds the most similar vectors in the index, which are the most relevant results.
+
